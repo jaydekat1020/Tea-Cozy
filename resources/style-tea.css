@@ -20,6 +20,7 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 header span {
@@ -42,6 +43,7 @@ header .logo {
 
 main {
   display: flex;
+  flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -58,7 +60,7 @@ main {
   align-items: center;
   height: 700px;
   width: 1200px;
-  margin: 0px;
+  margin: 0 auto 100px auto;
   background-image: url('../resources/images/mission-background.jpg');
 }
 
@@ -67,4 +69,30 @@ main {
   align-items: center;
   width: 100%;
   background-color: black;
+}
+
+/* second row */
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.teas {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image img {
+  display: flex;
+  height: 200px;
+  width: 300px;
 }
