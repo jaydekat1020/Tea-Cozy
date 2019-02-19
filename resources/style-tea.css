@@ -1,4 +1,4 @@
-/*main body all*/
+/*body all*/
 
 body {
   text-align: center;
@@ -36,4 +36,35 @@ header .logo {
 
 .logo img {
   height: 50px;
+}
+
+/* main body content*/
+
+main {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+    /* first row*/
+
+.mission {
+  display: flex;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0px;
+  background-image: url('../resources/images/mission-background.jpg');
+}
+
+.content {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  background-color: black;
 }
