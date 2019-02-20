@@ -28,6 +28,7 @@ header span {
   justify-content: space-between;
   margin-right: 20px;
   color: seashell;
+  text-decoration: underline;
 }
 
 header .logo {
@@ -78,22 +79,26 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 1000px;
+  margin: 40px auto;
 }
 
 .teas {
   display: inline-flex;
   flex-direction: row;
   align-content: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: auto 0px;
 }
 
 .image img {
   display: flex;
   height: 200px;
   width: 300px;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 /* third row */
@@ -135,4 +140,13 @@ main {
 .information {
   height: 200px;
   width: 100%;
+  margin-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
