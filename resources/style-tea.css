@@ -129,3 +129,10 @@ main {
 .place p {
   opacity: 1;
 }
+
+/* fourth row */
+
+.information {
+  height: 200px;
+  width: 100%;
+}
