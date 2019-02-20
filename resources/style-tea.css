@@ -72,7 +72,7 @@ main {
   background-color: black;
 }
 
-/* second row */
+    /* second row */
 
 .featured {
   display: flex;
@@ -101,7 +101,7 @@ main {
   margin-bottom: 10px;
 }
 
-/* third row */
+    /* third row */
 
 .locations {
   display: flex;
@@ -135,7 +135,7 @@ main {
   opacity: 1;
 }
 
-/* fourth row */
+    /* fourth row */
 
 .information {
   height: 200px;
